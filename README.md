@@ -138,6 +138,9 @@ apt-get install python-tox
 git clone https://github.com/crossbario/txaio.git ~/crossbario --recursive
 python2 setup.py install
 Usar pip para instalar twisted e autobahn ao invés de usar 
+pip install autobahn
+pip install autobahn[twisted]
+pip install autobahn[asyncio]
 pip install twisted
 
 
